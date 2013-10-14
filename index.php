@@ -5,13 +5,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<script src="./epiceditor/js/epiceditor.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0;" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" charset="utf-8" />
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-
-<style type='text/css'>
+ 
+ <style type='text/css'>
 
 .editButtons {
 }
@@ -37,7 +37,7 @@ $( document ).ready(function() {
 		},
 		theme: {
 		    base: '/themes/base/epiceditor.css',
-		    preview: '/themes/preview/preview-dark.css',
+		    preview: '/themes/preview/bartik.css',
 		    editor: '/themes/editor/epic-dark.css'
 		},
 		button: {
@@ -53,11 +53,9 @@ $( document ).ready(function() {
 
     $("#preview").click(function() {
         editor.preview();
-        //setTimeout(function() { window.scrollTo(0, 1) }, 100);
         $('html, body').animate({scrollTop:0}, 1000);
-        
-
     });
+
     $("#edit").click(function() {
         editor.edit();   
     });
