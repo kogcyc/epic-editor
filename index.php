@@ -84,7 +84,7 @@ $( document ).ready(function() {
 <i id="preview" class="icon-html5 editButtons" style="font-size: 2.6em; color: #f40;"></i>
 </div>
 
-<div id="epiceditor" style="width: 95%"></div>
+<div id="epiceditor" style="width: 100%; height: 300px;"></div>
 
 </body>
 </html> 
