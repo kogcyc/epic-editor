@@ -41,22 +41,12 @@ $( document ).ready(function() {
 		    editor: '/themes/editor/epic-dark.css'
 		},
 		button: {
-			preview: true,
-			fullscreen: true,
-			bar: "show"
+			preview: false,
+			fullscreen: false,
+			bar: "hide"
 		},
 		focusOnLoad: false,
-		shortcut: {
-			modifier: 18,
-			fullscreen: 70,
-			preview: 80
-		},
-		string: {
-			togglePreview: 'Toggle Preview Mode',
-			toggleEdit: 'Toggle Edit Mode',
-			toggleFullscreen: 'Enter Fullscreen'
-		},
-		autogrow: true
+		autogrow: false
 	}
 	
 	var editor = new EpicEditor(opts).load();
