@@ -42,8 +42,8 @@ $( document ).ready(function() {
 		},
 		button: {
 			preview: true,
-			fullscreen: false,
-			bar: "auto"
+			fullscreen: true,
+			bar: "show"
 		},
 		focusOnLoad: false,
 		shortcut: {
