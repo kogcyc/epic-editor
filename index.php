@@ -68,7 +68,7 @@ $( document ).ready(function() {
 
 
 <div style="padding-left: 0px;">
-<i id="edit" class="icon-edit editButtons" style="font-size: 2.6em; padding-top: 4px; color: #444;"></i>
+<i id="edit" class="icon-edit editButtons" style="font-size: 2.6em; color: #444;"></i>
 <i id="preview" class="icon-html5 editButtons" style="font-size: 2.6em; color: #f40;"></i>
 </div>
 
