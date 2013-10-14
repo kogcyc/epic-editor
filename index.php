@@ -66,7 +66,7 @@ $( document ).ready(function() {
 
 <div style="padding-left: 0px;">
 <i id="edit" class="icon-edit" style="font-size: 2.6em; color: #444;"></i>
-<i id="preview" class="icon-html" style="font-size: 2.6em; color: #f40;"></i>
+<i id="preview" class="icon-html5" style="font-size: 2.6em; color: #f40;"></i>
 </div>
 
 <div id="epiceditor" style="width: 100%; height: 300px;"></div>
